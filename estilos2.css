@@ -260,8 +260,7 @@ img{
         background-color: black;
         font-family: 'Poppins', sans-serif;
     }
-    
-    
+
     
     .contenedorColumnas
     {
@@ -273,11 +272,15 @@ img{
         width: 100%;
        
     }
+
     
     .campoBuscar{
         
         border: solid 1px white;
+        
     }
+
+    
     
     .contenedorLiga
     {   
@@ -455,7 +458,9 @@ img{
     }
     .resultadoJugador
     {   
-        width: 90%;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;  
         color: white;
     }
     
