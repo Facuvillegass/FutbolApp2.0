@@ -34,6 +34,7 @@
    grid-column: 3/4;
    grid-row: 1/2;
    margin-bottom: 15px;
+
 }
 
 .contenedorFrecuencia
@@ -185,10 +186,61 @@ label{
     color: white;
 }
 
-.opcionesBusquedas {
-    color: white;
+
+.opcionesBusquedasLiga, .opcionesBusquedasPosUnica, .opcionesBusquedasEdad, .opcionesBusquedasValor, .opcionesBusquedasGoles, .opcionesBusquedasMinutos, .opcionesBusquedasDuelos, .opcionesBusquedasPie, .opcionesBusquedasPasaporte 
+{
+    color: lightseagreen;
     font-size: 15px;
+    text-align: center;
 }
+
+.opcionesBusquedasLiga
+{
+    padding: 5px 80px;
+}
+
+.opcionesBusquedasPosUnica
+{
+    padding: 5px 76px;
+}
+
+.opcionesBusquedasEdad
+{
+    padding: 5px 70px;
+}
+
+.opcionesBusquedasValor
+{
+    padding: 5px 24px;
+}
+
+.opcionesBusquedasGoles
+{
+    padding: 5px 83px;
+}
+
+.opcionesBusquedasMinutos
+{
+    padding: 5px 23px;
+}
+
+.opcionesBusquedasDuelos
+{
+    padding: 5px 95px;
+}
+
+.opcionesBusquedasPie{
+    padding: 5px 110px;
+}
+
+.opcionesBusquedasPasaporte
+{
+    padding: 5px 87px;
+}
+
+
+
+
 
 /* resultados */
 
@@ -452,13 +504,15 @@ img{
     
     #resultados
     {
-        width: 90%;
+        width: 98%;
         margin-right: auto;
-        margin-left: auto;  
+        margin-left: auto;
+    
     }
     .resultadoJugador
     {   
-        width: 100%;
+        
+        width: 99%;
         margin-right: auto;
         margin-left: auto;  
         color: white;
@@ -466,6 +520,7 @@ img{
     
     .infoJugador
     {   
+        
         align-items: center;
         text-align: center;
         padding: 10px;
